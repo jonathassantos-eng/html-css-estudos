@@ -1,0 +1,50 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com Web Fonts</title>
+
+        <!-- Importando fontes do Google Fonts via <link> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                /* Fonte fallback caso o Google Fonts não carregue */
+                font-family: 'Poppins', sans-serif;
+                background-color: #f8f9fa;
+                color: #212529;
+                padding: 30px;
+            }
+
+            h1 {
+                font-weight: 700;
+                color: #4a148c;
+            }
+
+            p {
+                font-weight: 300;
+                line-height: 1.6;
+            }
+
+            /* Utilizando fonte monoespaçada para blocos de código */
+            .codigo {
+                font-family: 'Roboto Mono', monospace;
+                background-color: #e0e0e0;
+                padding: 10px;
+                border-radius: 5px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <h1>Exemplo de Web Fonts (Google Fonts)</h1>
+        <p>Esta página utiliza a fonte <strong>Poppins</strong> para textos comuns e títulos.</p>
+        
+        <p class="codigo">font-family: 'Roboto Mono', monospace;</p>
+
+    </body>
+</html>
