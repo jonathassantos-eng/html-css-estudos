@@ -1,0 +1,51 @@
+<!DOCTYPE html> <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilo Interno e Seletores</title>
+        
+        <style>
+            /* Container Principal Centralizado */
+            #container {
+                background-color: #ffb375;
+                width: 960px;
+                margin: 0 auto;
+                padding: 20px;
+                border-radius: 8px;
+            }
+
+            /* Classe de Destaque */
+            .texto-destaque {
+                font-weight: bold;
+                color: #2c3e50;
+            }
+
+            /* Lista Horizontal */
+            ul {
+                padding: 0;
+            }
+
+            ul li {
+                list-style: none;
+                display: inline-block; /* Permite usar margens e espaçamentos */
+                margin-right: 15px;    /* Espaço entre os itens horizontais */
+                font-weight: 500;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+            <h1>Título Principal</h1>
+            <p class="texto-destaque">Texto ao qual o título se refere</p>
+
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ul>
+        </div>
+
+    </body>
+</html>
